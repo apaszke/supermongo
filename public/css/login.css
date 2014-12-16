@@ -1,11 +1,21 @@
+html, body {
+  height:100%;
+}
+
 body {
   background-color: #7ab44e;
+  background-image: radial-gradient(at right top, #b2e090 0, rgba(178,244,144,0) 45%),
+                    radial-gradient(at 20% top, #9bd76e 0, rgba(155,215,110,0) 60%),
+                    radial-gradient(at 40% bottom, #5b9231 0, rgba(91,146,49,0) 80%);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   text-align: center;
 }
 
 h1 {
   margin-top: 40px;
   margin-bottom: 40px;
+  color: #111;
 }
 
 input[type]:focus {
@@ -27,6 +37,7 @@ input[type]:focus {
   font-weight:200;
   font-size:2em;
   margin-bottom: 40px;
+  margin-top: 0px;
 }
 
 .input-lg {
