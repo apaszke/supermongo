@@ -7,7 +7,7 @@ supermongoApp.config(['$routeProvider', '$locationProvider',
 
     $routeProvider
       .when('/', {
-        templateUrl: 'partials/main.html',
+        templateUrl: 'partials/dashboard.html',
         controller: 'MainCtrl'
       })
       .otherwise({

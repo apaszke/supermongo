@@ -29,6 +29,7 @@ body {
   width:100%;
   background-color: #fff;
   box-shadow: -10px 1px 11px -5px #000000;
+  margin-bottom:15px;
 }
 
 .content-header h2 {
@@ -37,12 +38,18 @@ body {
   font-size: 1.2em;
   color: #6c757e;
   font-weight:300;
+  width:100%;
 }
 
 .nav-sidebar > li > a {
   font-size:1em;
   padding-top:19px;
   padding-bottom:19px;
+}
+
+.nav-sidebar > li > a:hover,
+.nav-sidebar > li > a:focus {
+  background-color: #addd8a;
 }
 
 @media (min-width: 768px) {
