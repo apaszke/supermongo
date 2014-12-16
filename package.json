@@ -1,0 +1,26 @@
+{
+  "name": "supermongo",
+  "version": "0.0.0",
+  "description": "The last MongoDB GUI & CLI you'll ever need. Made with Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wesolyromek/supermongo.git"
+  },
+  "keywords": [
+    "mongodb",
+    "gui",
+    "cli",
+    "database",
+    "admin"
+  ],
+  "author": "Adam Paszke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wesolyromek/supermongo/issues"
+  },
+  "homepage": "https://github.com/wesolyromek/supermongo"
+}
