@@ -9,6 +9,7 @@ app.use(express.static('public', { index: false }));
 app.use(express.static('node_modules/angular'));
 app.use(express.static('node_modules/angular-route'));
 app.use(express.static('node_modules/bootstrap/dist'));
+app.use(express.static('node_modules/jquery/dist/cdn'));
 
 // Middleware
 app.use(bodyParser.json());

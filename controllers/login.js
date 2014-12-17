@@ -33,7 +33,7 @@ module.exports = router;
  * Valid param fields are: address, port, database, user and password
  *
  * @param  {object} params POST request parameters
- * @return {string} 
+ * @return {string}
  */
 function constructMongoUrl(params) {
   var protocol = 'mongodb://';
