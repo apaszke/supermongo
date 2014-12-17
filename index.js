@@ -20,7 +20,6 @@ app.use(function(req, res, next) {
   next();
 });
 
-
 // API routes
 app.use('/db', require('./controllers/db'));
 app.use('/collection', require('./controllers/collection'));
@@ -30,6 +29,7 @@ app.get('*', function mainAppRequest(req, res) {
   res.sendFile(__dirname + '/public/index.html');
 });
 
+// Start the server
 app.listen(3000, function(callback) {
   console.log("App listening on localhost:3000");
 });

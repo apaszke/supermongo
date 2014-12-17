@@ -2,7 +2,9 @@ var MongoClient = require('mongodb').MongoClient;
 var express = require('express');
 var router = express.Router();
 
-// All routes are mounted under /login
+/**
+ * All routes are mounted under /login
+ */
 
 router.get('/', function loginRoute(req, res) {
   res.sendFile(process.cwd() + '/public/login.html');
@@ -22,12 +24,17 @@ router.post('/', function connectToDatabaseRoute(req, res) {
 
 module.exports = router;
 
-//------------
-// Helpers
-//------------
+/**
+ * Helpers
+ */
 
-// Valid request fields are:
-//   address, port, database, user and password
+/**
+ * Takes request params and constructs a mongo url for connection
+ * Valid param fields are: address, port, database, user and password
+ *
+ * @param  {object} params POST request parameters
+ * @return {string} 
+ */
 function constructMongoUrl(params) {
   var protocol = 'mongodb://';
   var address = params.address || '127.0.0.1';
