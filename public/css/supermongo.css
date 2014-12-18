@@ -52,6 +52,43 @@ body {
   background-color: #addd8a;
 }
 
+.top-stats {
+  color: #a5acb4;
+  padding-left: 35px;
+}
+
+.top-stats h3 {
+  font-weight:400;
+  color: #5d646c;
+  font-size: 2.4em;
+  margin-bottom:0px;
+  margin-top: 5px;
+}
+
+.stats-green {
+  padding-left:10px;
+  border-left: 4px solid #91c46b;
+}
+
+.stats-blue {
+  padding-left:10px;
+  border-left: 4px solid #287e7e;
+}
+
+.stats-red {
+  padding-left:10px;
+  border-left: 4px solid #f15822;
+}
+
+.collections-container {
+  padding: 20px;
+}
+
+#oplogChart {
+  width:100%;
+  height:300px;
+}
+
 @media (min-width: 768px) {
   .sidebar {
     position: fixed;
