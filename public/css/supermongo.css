@@ -84,9 +84,13 @@ body {
   padding: 20px;
 }
 
-#oplogChart {
+svg {
   width:100%;
   height:300px;
+}
+
+.charts {
+  margin-top: 20px;
 }
 
 @media (min-width: 768px) {
